@@ -1,11 +1,18 @@
- body {
-     background-image: url(https://th.bing.com/th/id/R.5528d32e6b642d01375b2471ceb6048b?rik=LOLuBtwL2JTC3Q&pid=ImgRaw&r=0);
-     display: flex;
-     align-items: center;
-     justify-content: center;
-     height: 700px;
- }
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
 
+body {
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-variation-settings: "wdth" 100;
+    background-image: url(https://th.bing.com/th/id/R.5528d32e6b642d01375b2471ceb6048b?rik=LOLuBtwL2JTC3Q&pid=ImgRaw&r=0);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 700px;
+}
+   
  .card {
      display: flex;
      flex-direction: column;
@@ -22,9 +29,8 @@
      justify-content: center;
  }
 
+  
  .card__title {
-     margin: 25px;
-     margin-bottom: 10px;
      color: rgb(29, 29, 29);
      font-weight: bold;
      font-size: 1.5rem;
@@ -78,10 +84,15 @@
  }
 
  .card__plan__title {
-     font-size: 1rem;
+    font-weight: bold;
+    font-size: 1rem;
+ }
+ .card__plan__price{
+    font-size: 0.8rem;
  }
 
  .card__plan__link {
+    font-size: 0.8rem;
      display: flex;
      flex-direction: column;
      justify-content: center;
