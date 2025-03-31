@@ -1,0 +1,113 @@
+ body {
+     background-image: url(https://th.bing.com/th/id/R.5528d32e6b642d01375b2471ceb6048b?rik=LOLuBtwL2JTC3Q&pid=ImgRaw&r=0);
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     height: 700px;
+ }
+
+ .card {
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     width: 450px;
+     height: 600px;
+     background-color: rgb(179, 233, 240);
+     border-radius: 20px;
+     overflow: hidden;
+ }
+
+ .image img {
+     width: 100%;
+     justify-content: center;
+ }
+
+ .card__title {
+     margin: 25px;
+     margin-bottom: 10px;
+     color: rgb(29, 29, 29);
+     font-weight: bold;
+     font-size: 1.5rem;
+ }
+
+ .card__row {
+     padding: 0 1rem;
+ }
+
+ p {
+     text-align: center;
+ }
+
+ .card__description {
+     color: gray;
+     align-items: center;
+     font-size: 1rem;
+ }
+
+ .card__section__plan {
+     width: 250px;
+     border: 1px solid transparent;
+     background-color: rgb(199, 236, 241);
+     border-radius: 12px;
+     display: flex;
+     flex-direction: row;
+     margin-bottom: 40px;
+     justify-content: space-around;
+     padding: 0.5rem;
+ }
+
+ .card__icon {
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     height: 100%;
+ }
+
+ .card__iconLeft {
+     border: 1px solid gray;
+     border-radius: 20px;
+     height: 20px;
+     width: 20px;
+ }
+
+ .card__plan {
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     height: 100%;
+ }
+
+ .card__plan__title {
+     font-size: 1rem;
+ }
+
+ .card__plan__link {
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     height: 100%;
+ }
+
+ .card__btn {
+     border: 1px solid transparent;
+     border-radius: 8px;
+     box-shadow: 2px 2px rgb(95, 95, 95);
+     width: 400px;
+     height: 40px;
+     background-color: rgb(37, 37, 252);
+ }
+
+ .btn__content {
+     color: white;
+     font-weight: bold;
+ }
+
+ .card__btn--ghost {
+     background: none;
+     border: none;
+     box-shadow: none;
+ }
+
+ .card__btn--ghost .card__btn__content {
+     color: rgb(150, 150, 150);
+ }
